@@ -27,7 +27,7 @@ function env() {
       fi
       ;;
     "1")
-      python3 ./wxp.py $dict $url | grep -iE ^[0-3]
+      python3 ./wxp.py $dict $url 
       ;;
     "2")
       python3 ./wxp.py $dict $url > logs.dat
